@@ -1,0 +1,1528 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1542542478799,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "22c81b4f-5e34-4361-ac5d-b4a1a4a045d7",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Multiple Vendor Storage Dashboard",
+      "namePath": "Custom Dashboards",
+      "rank": 355,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "8b859c10-36d9-4abf-b51f-054a5d582d4b",
+            "widgetIdReceiver": "8488523d-4181-4639-a2cc-4e3bf0c158a9"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "14fc13dd-cbcd-4f5a-9754-9da882938998",
+            "widgetIdReceiver": "0aa177ab-f038-4626-8989-dc381c9b7f75"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "11699b26-10fb-4c1d-b8d7-9ea7fd620778",
+            "widgetIdReceiver": "73ac9272-b3e4-4216-8291-69fdccc44210"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "8b859c10-36d9-4abf-b51f-054a5d582d4b",
+            "widgetIdReceiver": "15a0e62a-5f2c-41d5-a7b8-970d823f6868"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "14fc13dd-cbcd-4f5a-9754-9da882938998",
+            "widgetIdReceiver": "3384727c-d2d3-4418-9db9-a05f7ab663ee"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "11699b26-10fb-4c1d-b8d7-9ea7fd620778",
+            "widgetIdReceiver": "1748f883-3c46-4979-bc7b-0ba3cc84f4dc"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "056462f3-a715-464f-8e6a-89245744356a",
+            "widgetIdReceiver": "e00e52c9-0c55-4ec7-8358-16c2c94efd0a"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "056462f3-a715-464f-8e6a-89245744356a",
+            "widgetIdReceiver": "050f2f49-c566-4ed1-8a12-4848eb970e68"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Total Capacity (GB)",
+                     "metricKey": "capacity|netappaggregate_total_capacity",
+                     "metricName": "Capacity|Total Capacity (GiB)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Used Capacity (%)",
+                     "metricKey": "capacity|netappaggregate_used_capacity_percentage",
+                     "metricName": "Capacity|Used Capacity (%)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "NetApp FAS Aggregates"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 3,
+               "x": 1,
+               "y": 1
+            },
+            "height": 210,
+            "id": "8b859c10-36d9-4abf-b51f-054a5d582d4b",
+            "states": [{
+               "key": "permResGrid_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_8b859c10-36d9-4abf-b51f-054a5d582d4b",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A159%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A155%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A159%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AmetricValue_%252525253A%252525253A_capacity%252525257Cnetappaggregate_used_capacity_percentage%2525255Edirection%2525253Ds%252525253ADESC"
+            }],
+            "title": "NetApp FAS Aggregates",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Total Capacity (B)",
+                     "metricKey": "Capacity|capacity",
+                     "metricName": "Capacity|Capacity (B)",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Total Used Capacity (%)",
+                     "metricKey": "Capacity|total_used_space_ratio",
+                     "metricName": "Capacity|Total Used Space (%)",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Pure Arrays"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 3,
+               "x": 4,
+               "y": 1
+            },
+            "height": 210,
+            "id": "14fc13dd-cbcd-4f5a-9754-9da882938998",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_14fc13dd-cbcd-4f5a-9754-9da882938998",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permResGrid_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_14fc13dd-cbcd-4f5a-9754-9da882938998",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A231%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A234%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A190%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "Pure Arrays",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Total Space Used (B)",
+                     "metricKey": "Disk|dedupe_total_used",
+                     "metricName": "Disk|Total Space Used (B)",
+                     "resourceKindId": "resourceKind:id:2_::_"
+                  },
+                  {
+                     "boxLabel": "SSD Space Used (B)",
+                     "metricKey": "Disk|ifs_ssd_used",
+                     "metricName": "Disk|SSD Space Used (B)",
+                     "resourceKindId": "resourceKind:id:2_::_"
+                  },
+                  {
+                     "boxLabel": "SSD Total Space (B)",
+                     "metricKey": "Disk|ifs_ssd_total",
+                     "metricName": "Disk|SSD Space Total (B)",
+                     "resourceKindId": "resourceKind:id:2_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:2_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:2_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Dell EMC Isilon Clusters"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 3,
+               "x": 7,
+               "y": 1
+            },
+            "height": 210,
+            "id": "11699b26-10fb-4c1d-b8d7-9ea7fd620778",
+            "states": [{
+               "key": "permResGrid_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_11699b26-10fb-4c1d-b8d7-9ea7fd620778",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A188%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A221%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Dell EMC Isilon Clusters",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6917-1",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|committed_space_percentage",
+                        "metricName": "Capacity|Committed Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6917-2",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappaggregate_available_capacity",
+                        "metricName": "Capacity|Free Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6917-3",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappaggregate_available_capacity_percentage",
+                        "metricName": "Capacity|Free Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6917-4",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappaggregate_total_capacity",
+                        "metricName": "Capacity|Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6917-5",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|committed_space",
+                        "metricName": "Capacity|Total Committed Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6917-6",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappaggregate_used_capacity",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6917-7",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappaggregate_used_capacity_percentage",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6917-8",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|volume_compression_space_savings",
+                        "metricName": "Capacity|Volume Compression Space Savings",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel6917-9",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|volume_dedupe_space_savings",
+                        "metricName": "Capacity|Volume Dedupe Space Savings",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "NetApp FAS Aggregate Capacity Metrics (for selected Aggregate)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 3,
+               "x": 1,
+               "y": 10
+            },
+            "height": 609,
+            "id": "8488523d-4181-4639-a2cc-4e3bf0c158a9",
+            "title": "NetApp FAS Aggregate Capacity Metrics (for selected Aggregate)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8196-1",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|capacity",
+                        "metricName": "Capacity|Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8196-2",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|shared_space",
+                        "metricName": "Capacity|Shared Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8196-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_space",
+                        "metricName": "Capacity|Snapshot Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8196-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|snapshot_space_ratio",
+                        "metricName": "Capacity|Snapshot Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8196-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|system_space",
+                        "metricName": "Capacity|System Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8196-6",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_provisioned_space",
+                        "metricName": "Capacity|Total Provisioned Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8196-7",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_used_space",
+                        "metricName": "Capacity|Total Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8196-8",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_used_space_ratio",
+                        "metricName": "Capacity|Total Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8196-9",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|volume_space",
+                        "metricName": "Capacity|Volume Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Pure Array Capacity Metrics (for selected Array)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 3,
+               "x": 4,
+               "y": 10
+            },
+            "height": 609,
+            "id": "0aa177ab-f038-4626-8989-dc381c9b7f75",
+            "title": "Pure Array Capacity Metrics (for selected Array)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-1",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|disk_busy",
+                        "metricName": "Disk|Disk Busy",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-2",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|disk_in",
+                        "metricName": "Disk|Disk In",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-3",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|disk_out",
+                        "metricName": "Disk|Disk Traffic Out",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-4",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|dedupe_estimated_deduplicated",
+                        "metricName": "Disk|Estimated Deduplicated Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-5",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_ops_in_rate",
+                        "metricName": "Disk|IFS Ops In Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-6",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_ops_out_rate",
+                        "metricName": "Disk|IFS Ops Out Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-7",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_percent_avail",
+                        "metricName": "Disk|IFS Percent Avail",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-8",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_percent_free",
+                        "metricName": "Disk|IFS Percent Free",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-9",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_percent_used",
+                        "metricName": "Disk|IFS Percent Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-10",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_reserved_drive",
+                        "metricName": "Disk|IFS Reserved Drive",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-11",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_reserved_snapshots",
+                        "metricName": "Disk|IFS Reserved Snapshots",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-12",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_avail",
+                        "metricName": "Disk|IFS Space Available",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-13",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_free",
+                        "metricName": "Disk|IFS Space Free",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-14",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_total",
+                        "metricName": "Disk|IFS Space Total",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-15",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_used",
+                        "metricName": "Disk|IFS Space Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-16",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_in_rate",
+                        "metricName": "Disk|IFS Throughput In Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-17",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_in_rate_max",
+                        "metricName": "Disk|IFS Throughput In Rate Max",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-18",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_out_rate",
+                        "metricName": "Disk|IFS Throughput Out Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-19",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_out_rate_max",
+                        "metricName": "Disk|IFS Throughput Out Rate Max",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-20",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|dedupe_logical_deduplicated",
+                        "metricName": "Disk|Logical Deduplicated Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-21",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_ssd_free",
+                        "metricName": "Disk|SSD Space Free",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-22",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_ssd_total",
+                        "metricName": "Disk|SSD Space Total",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-23",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|ifs_ssd_used",
+                        "metricName": "Disk|SSD Space Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5597-24",
+                        "isStringMetric": false,
+                        "metricKey": "Disk|dedupe_total_used",
+                        "metricName": "Disk|Total Space Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Dell EMC Isilon Cluster",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Dell EMC Isilon Cluster Capacity Metrics (for selected Cluster)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 3,
+               "x": 7,
+               "y": 10
+            },
+            "height": 609,
+            "id": "73ac9272-b3e4-4216-8291-69fdccc44210",
+            "title": "Dell EMC Isilon Cluster Capacity Metrics (for selected Cluster)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel9869-1",
+                     "isStringMetric": false,
+                     "metricKey": "capacity|netappaggregate_used_capacity_percentage",
+                     "metricName": "Capacity|Used Capacity",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "NetApp Aggregate",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "NetApp FAS Aggregate Capacity (for selected Aggregate)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 1,
+               "y": 5
+            },
+            "height": 267,
+            "id": "15a0e62a-5f2c-41d5-a7b8-970d823f6868",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_15a0e62a-5f2c-41d5-a7b8-970d823f6868",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_15a0e62a-5f2c-41d5-a7b8-970d823f6868",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_15a0e62a-5f2c-41d5-a7b8-970d823f6868",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_15a0e62a-5f2c-41d5-a7b8-970d823f6868",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_15a0e62a-5f2c-41d5-a7b8-970d823f6868",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_15a0e62a-5f2c-41d5-a7b8-970d823f6868",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "NetApp FAS Aggregate Capacity (for selected Aggregate)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel10772-1",
+                     "isStringMetric": false,
+                     "metricKey": "Capacity|total_used_space_ratio",
+                     "metricName": "Capacity|Total Used Space",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:1_::_",
+                     "resourceKindName": "Pure Array",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Pure Array Capacity (for selected Array)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 4,
+               "y": 5
+            },
+            "height": 267,
+            "id": "3384727c-d2d3-4418-9db9-a05f7ab663ee",
+            "states": [
+               {
+                  "key": "permBtn_anomalies_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_3384727c-d2d3-4418-9db9-a05f7ab663ee",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_3384727c-d2d3-4418-9db9-a05f7ab663ee",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_thresholds_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_3384727c-d2d3-4418-9db9-a05f7ab663ee",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_3384727c-d2d3-4418-9db9-a05f7ab663ee",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_3384727c-d2d3-4418-9db9-a05f7ab663ee",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_3384727c-d2d3-4418-9db9-a05f7ab663ee",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_trendLine_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_3384727c-d2d3-4418-9db9-a05f7ab663ee",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_3384727c-d2d3-4418-9db9-a05f7ab663ee",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_3384727c-d2d3-4418-9db9-a05f7ab663ee",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Pure Array Capacity (for selected Array)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel4457-1",
+                     "isStringMetric": false,
+                     "metricKey": "Disk|ifs_ssd_used",
+                     "metricName": "Disk|SSD Space Used",
+                     "metricUnitId": "byte",
+                     "resourceKindId": "resourceKind:id:2_::_",
+                     "resourceKindName": "Dell EMC Isilon Cluster",
+                     "unit": "B"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Dell EMC Isilon Cluster Capacity (for selected Cluster)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 7,
+               "y": 5
+            },
+            "height": 267,
+            "id": "1748f883-3c46-4979-bc7b-0ba3cc84f4dc",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_1748f883-3c46-4979-bc7b-0ba3cc84f4dc",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_1748f883-3c46-4979-bc7b-0ba3cc84f4dc",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_1748f883-3c46-4979-bc7b-0ba3cc84f4dc",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_1748f883-3c46-4979-bc7b-0ba3cc84f4dc",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_1748f883-3c46-4979-bc7b-0ba3cc84f4dc",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_1748f883-3c46-4979-bc7b-0ba3cc84f4dc",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Dell EMC Isilon Cluster Capacity (for selected Cluster)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Total Capacity (MB)",
+                     "metricKey": "Capacity|total_used_capacity",
+                     "metricName": "Capacity|Total Used Capacity (MiB)",
+                     "resourceKindId": "resourceKind:id:3_::_"
+                  },
+                  {
+                     "boxLabel": "Total Used Capacity (%)",
+                     "metricKey": "Capacity|total_tier_capacity_usage",
+                     "metricName": "Capacity|Total Tier Capacity Usage (%)",
+                     "resourceKindId": "resourceKind:id:3_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:3_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:3_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "IBM SVC Clusters"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 3,
+               "x": 10,
+               "y": 1
+            },
+            "height": 210,
+            "id": "056462f3-a715-464f-8e6a-89245744356a",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_056462f3-a715-464f-8e6a-89245744356a",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permResGrid_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_056462f3-a715-464f-8e6a-89245744356a",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A163%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A201%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A154%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "IBM SVC Clusters",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-1",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|compression_compressed_capacity",
+                        "metricName": "Capacity|Compression Compressed Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-2",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|compression_uncompressed_capacity",
+                        "metricName": "Capacity|Compression Uncompressed Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-3",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|compression_virtual_capacity",
+                        "metricName": "Capacity|Compression Virtual Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-4",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|space_allocated_to_virtual_disks",
+                        "metricName": "Capacity|Space Allocated To Virtual Disks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-5",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|space_in_pool_groups",
+                        "metricName": "Capacity|Space In Pool Groups",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-6",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_0_flash_capacity",
+                        "metricName": "Capacity|Tier 0 Flash Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-7",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_0_flash_compressed_data_used",
+                        "metricName": "Capacity|Tier 0 Flash Compressed Data Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-8",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_0_flash_free_space",
+                        "metricName": "Capacity|Tier 0 Flash Free Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-9",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_1_flash_capacity",
+                        "metricName": "Capacity|Tier 1 Flash Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-10",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_1_flash_compressed_data_used",
+                        "metricName": "Capacity|Tier 1 Flash Compressed Data Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-11",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_1_flash_free_space",
+                        "metricName": "Capacity|Tier 1 Flash Free Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-12",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_enterprise_compressed_data_used",
+                        "metricName": "Capacity|Tier Enterprise Compressed Data Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-13",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_enterprise_flash_capacity",
+                        "metricName": "Capacity|Tier Enterprise Flash Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-14",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_enterprise_flash_free_space",
+                        "metricName": "Capacity|Tier Enterprise Flash Free Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-15",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_nearline_compressed_data_used",
+                        "metricName": "Capacity|Tier Nearline Compressed Data Used",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-16",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_nearline_flash_capacity",
+                        "metricName": "Capacity|Tier Nearline Flash Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-17",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|tier_nearline_flash_free_space",
+                        "metricName": "Capacity|Tier Nearline Flash Free Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-18",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_allocated_extent_capacity",
+                        "metricName": "Capacity|Total Allocated Extent Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-19",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_free_space",
+                        "metricName": "Capacity|Total Free Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-20",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_overallocation",
+                        "metricName": "Capacity|Total Overallocation",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-21",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_pool_capacity",
+                        "metricName": "Capacity|Total Pool Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-22",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_snapshot_capacity",
+                        "metricName": "Capacity|Total Snapshot Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-23",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_tier_capacity",
+                        "metricName": "Capacity|Total Tier Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-24",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_tier_capacity_usage",
+                        "metricName": "Capacity|Total Tier Capacity Usage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-25",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_tier_free_space",
+                        "metricName": "Capacity|Total Tier Free Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-26",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_tier_used_space",
+                        "metricName": "Capacity|Total Tier Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-27",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_used_capacity",
+                        "metricName": "Capacity|Total Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19344-28",
+                        "isStringMetric": false,
+                        "metricKey": "Capacity|total_virtual_disk_capacity",
+                        "metricName": "Capacity|Total Virtual Disk Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "IBM SVC Cluster",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "IBM SVC Cluster Capacity Metrics (for selected Cluster)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 3,
+               "x": 10,
+               "y": 10
+            },
+            "height": 609,
+            "id": "050f2f49-c566-4ed1-8a12-4848eb970e68",
+            "title": "IBM SVC Cluster Capacity Metrics (for selected Cluster)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel17655-1",
+                     "isStringMetric": false,
+                     "metricKey": "Capacity|total_used_capacity",
+                     "metricName": "Capacity|Total Used Capacity",
+                     "metricUnitId": "mibyte",
+                     "resourceKindId": "resourceKind:id:3_::_",
+                     "resourceKindName": "IBM SVC Cluster",
+                     "unit": "MiB"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "IBM SVC Cluster Capacity (for selected Cluster)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 10,
+               "y": 5
+            },
+            "height": 267,
+            "id": "e00e52c9-0c55-4ec7-8358-16c2c94efd0a",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_e00e52c9-0c55-4ec7-8358-16c2c94efd0a",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_e00e52c9-0c55-4ec7-8358-16c2c94efd0a",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_e00e52c9-0c55-4ec7-8358-16c2c94efd0a",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_e00e52c9-0c55-4ec7-8358-16c2c94efd0a",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_e00e52c9-0c55-4ec7-8358-16c2c94efd0a",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_22c81b4f-5e34-4361-ac5d-b4a1a4a045d7_e00e52c9-0c55-4ec7-8358-16c2c94efd0a",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "IBM SVC Cluster Capacity (for selected Cluster)",
+            "type": "MetricChart"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "PURESTORAGEFLASHARRAY_ADAPTER",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "pure_storage_flasharray_purestorage_flasharray_array"
+      },
+      {
+         "adapterKindKey": "NetAppAdapter",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "NetAppAggregate"
+      },
+      {
+         "adapterKindKey": "DELLEMCISILON_ADAPTER",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "dell_emc_isilon_cluster"
+      },
+      {
+         "adapterKindKey": "IBMSVC_ADAPTER",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "ibm_svc_bm_exuno_ibmsvc_cluster"
+      }
+   ]},
+   "uuid": "3c4f3c70-cffc-435a-9d67-33b9dff01b4f"
+}
